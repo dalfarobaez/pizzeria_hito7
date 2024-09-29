@@ -1,0 +1,299 @@
+.Navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: aliceblue;
+}
+.buttonsNavContainer {
+  display: flex;
+}
+.tittleContainer {
+  display: flex;
+  align-items: center;
+}
+.buttonNavbar {
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 2px 8px;
+  margin-left: 10px;
+  background: #000;
+}
+.cartContainer {
+  border: 1px solid rgb(0, 225, 255);
+  color: rgb(0, 225, 255);
+  border-radius: 8px;
+  padding: 2px 8px;
+}
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  color: aliceblue;
+}
+.header {
+  height: 25vh;
+  background-image: url('assets/imgs/Header.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.capaNegra{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.headerTextContainer {
+  height: 40%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 1px solid white;
+}
+.pizzasContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 1%;
+}
+.cardPizza{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid rgb(185, 182, 182);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 2%;
+}
+.fotoPizzaContainer{
+  width:100%;
+  height: 30vh;
+  display: block;
+}
+.fotoPizzaContainer img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.ingredientesContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.5px solid rgb(185, 182, 182);
+  border-top: 0.5px solid rgb(185, 182, 182);
+  align-items: center;
+  padding: 5px;
+}
+.ingredientesContainer h4{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.ingredientesContainer p{
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.priceContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.botonContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.botonVer {
+  padding: 3px 6px;
+  border: 1px solid rgb(35, 35, 35);
+  border-radius: 5px;
+  text-decoration: none;
+}
+.botonVer a {
+  text-decoration: none;
+}
+.botonCompra {
+  padding: 3px 6px;
+  border: 1px solid rgb(35, 35, 35);
+  border-radius: 5px;
+  background-color: black;
+  color: aliceblue;
+}
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60vh;
+  align-items: center;
+  padding-top: 5vh;
+}
+.elementFormContainer{
+  display: flex;
+  width: 100%;
+  padding-top: 15px;
+}
+.nombreCampo{
+  width: 40%;
+}
+.campo{
+  width: 60%;
+}
+.enviarContainer{
+  display: flex;
+  padding: 3vh;
+  justify-content: center;
+  width: 100%;
+}
+.formulario{
+  width: 30%;
+}
+.formulario input {
+  width: 100%;
+}
+.contenedorGaleriaCarrito {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  justify-content: space-around;
+}
+.contenedorPizzaCarrito{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: lightgray;
+  padding: 0.5%;
+}
+.botones-container {
+  display: flex;
+  gap: 10px; /* Espacio entre los botones */
+}
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.btn-agregar {
+  background: linear-gradient(45deg, #28a745, #218838); /* Verde para agregar */
+}
+
+.btn-quitar {
+  background: linear-gradient(45deg, #ffc107, #e0a800); /* Amarillo para quitar */
+}
+
+.btn-pagar {
+  background: linear-gradient(45deg, #dc3545, #c82333); /* Rojo para pagar */
+}
+
+/* Efecto al pasar el ratón por encima */
+.btn:hover {
+  transform: scale(1.05); /* Ligera ampliación */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Efecto al hacer clic */
+.btn:active {
+  transform: scale(0.98); /* Ligera reducción */
+}
+
+.infoCarrito {
+  padding: 1%;
+  background-color: lightcyan;
+}
+
+.contenedorMayor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.contenedorUnaPizza {
+  display: flex;
+  width: 80%; 
+}
+
+.fotoPizzaContainer2{
+  width:40%;
+  display: block;
+}
+
+.fotoPizzaContainer2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.descripcionPizza {
+  width: 60%;
+  padding: 2%;
+}
+
+.descripcionPizza ul {
+  list-style-type: none;
+}
+
+.contenedorPrecio {
+  display: flex;
+}
+
+.botonContainer2{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding-bottom: 15px;
+  padding-top: 15px; */
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.buttonLogout{
+  text-decoration: none;
+  color: aliceblue;
+  background: #000;
+  margin: 15%;
+  padding: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.buttonLogoutContainer{
+  width: 150px;
+}
+.buttonLogoutContainer a{
+  text-decoration: none;
+}
+
+.contenedorBoton{
+  border: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+.containerLogout {
+  width: 100%;
+  background: #000;
+  color: aliceblue;
+}
